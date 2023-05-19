@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;600;700&family=Roboto&display=swap');
 
 /* rgb(255, 252, 252) */
 /* rgb(250, 248, 248) */
@@ -11,8 +11,6 @@
     color: white;
  
 }
-
-
 
 .toptext{
     font-family: 'Fira Sans Condensed', sans-serif; 
@@ -32,3 +30,30 @@
     font-weight: 500;
     font-size: 30px;
 }
+
+
+
+.servicecon{
+     font-family: 'Roboto', sans-serif; 
+    height: 50vh;
+    display: flex;
+    background-color: DodgerBlue;
+    
+}
+
+.scontainers {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .scontainershead{
+ font-weight: 700;
+ font-size: 30px;
+ padding-bottom: 15px;
+  }
+
+  .scontainersmain{
+    font-size: 20px;
+  }
