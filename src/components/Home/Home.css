@@ -36,7 +36,10 @@
 .servicecon{
      font-family: 'Roboto', sans-serif; 
     height: 50vh;
-    display: flex;
+    display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+    /* display: flex; */
     background-color: DodgerBlue;
     
 }
@@ -46,6 +49,8 @@
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+  
+       
   }
 
   .scontainershead{
@@ -57,3 +62,53 @@
   .scontainersmain{
     font-size: 20px;
   }
+
+  .sbottom{
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  
+  
+  .nats{
+    height: 50vh;
+    background-color: rgb(227, 225, 222);
+    padding-top: 200px;
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif; 
+    
+  }
+
+  .motivation{
+    height: 50vh;
+    text-align: center;
+    padding-top: 200px;
+    background-color: rgb(246, 212, 162);
+    color: black;
+    font-family: 'Roboto', sans-serif; 
+  }
+
+  .work{
+    height: 50vh;
+    text-align: center;
+    padding-top: 200px;
+    background-color: rgb(212, 88, 88);
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+
+  }
+
+  .homeheaders{
+    font-family: 'Roboto', sans-serif; 
+    padding-bottom: 20px;
+  }
+
+.homebody{
+    font-size: 35px;
+    font-weight: 700;
+    
+ 
+}

@@ -21,7 +21,9 @@ const Home = () => {
     <section>
         <div className="servicecon">
 <div className='scontainers'>
+
     <div className='scontainershead'>UX design</div>
+
     <div className='scontainersmain'>
 UX design is about creating good user experiences. The goal is to develop products and services that simplify and improve the experience for people.
 </div>
@@ -44,7 +46,40 @@ When you need to explain a product, service or complex flows in moving form.
 </div>
 </div>
         </div>
+        <div className="sbottom">See more of our services or contact us via email:hello@hoys.se</div>
     </section>
+<section >
+    <div className="nats">
+        <div className="homeheaders">THIS IS NATS</div>
+        <div className="homebody">A digital agency in Sweden with talent for technology, design and film.
+             We are project managers, strategists, developers, designers, creators, directors 
+             and motion artists.</div>
+    </div>
+</section>
+
+<section>
+    <div className="motivation">
+        <div className="homeheaders">OUR MOTIVATION</div>
+        <div className="homebody">
+        We are tasked with creating valueable work through our passion. 
+        The goal is to simplify, improve and design. 
+        We make life easier for everyone.
+        </div>
+    </div>
+</section>
+
+<section>
+    <div className="work">
+        <div className="homeheaders">HOW WE WORK</div>
+        <div className="homebody">We work hand in hand and in an integrated manner with our clients.
+             Working together puts us into the business giving us the ability to
+              brainstorm strong creative ideas,
+             knocks the code and measures the effect. All in one go.</div>
+    </div>
+</section>
+
+
+
     </>
     )
 }
