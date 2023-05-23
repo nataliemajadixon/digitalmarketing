@@ -14,7 +14,7 @@ const Navbars = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto navigation">
-              <Nav.Link href="/digital" className="px-3" >Digital</Nav.Link>
+              
               <Nav.Link href="/services" className="px-3" >Services</Nav.Link>
               <Nav.Link href="/about" className="px-3">About Us</Nav.Link>
               <Nav.Link href="/career" className="px-3">Career</Nav.Link>

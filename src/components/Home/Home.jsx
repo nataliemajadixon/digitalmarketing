@@ -68,6 +68,35 @@ When you need to explain a product, service or complex flows in moving form.
     </div>
 </section>
 
+<section>
+    <div className="work">
+        <div className="homeheaders">HOW WE WORK</div>
+        <div className="homebody">
+        We work closely and in an integrated manner with our clients. Puts us into 
+        the business, brainstorms 
+        strong creative ideas, knocks the code and measures the effect. All under one roof.
+        </div>
+    </div>
+</section>
+<section>
+    <div className="flexhome">
+        <div className="flexboxlayout1">
+       
+           <div className="flexboxlayout1text">
+            <div>Services</div>
+            <div>Read More</div>
+            </div>
+        </div>
+        <div className="flexboxlayout2">
+       
+       
+        <div>About Nats</div>
+        <div>Read More</div>
+     
+        </div>
+    </div>
+</section>
+
 
 
 
