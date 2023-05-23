@@ -141,23 +141,28 @@
     background-image: url('../../assets/abouthome.jpg');
     width: 500px;
     height: 400px;
-    background-size: contain ;
+    background-size: cover ;
     font-family: 'Fira Sans Condensed', sans-serif; 
     color: white;
+    background-repeat: no-repeat;
 }
 
 
 
-.flexboxlayout2{
-    font-family: 'Fira Sans Condensed', sans-serif; 
-/*     
-    position: absolute; */
-    /* top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-}
+
 
 
 .homeflexboxes {
     width: 500px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+.bottomlinks{
+    color: white;
+    text-decoration: none;
 }

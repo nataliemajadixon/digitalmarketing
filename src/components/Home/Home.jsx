@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Container, Col, Row } from "react-bootstrap";
 import './Home.css'
 
 const Home = () => {
@@ -96,6 +96,47 @@ When you need to explain a product, service or complex flows in moving form.
         </div>
     </div>
 </section>
+
+<section className="footer">
+            <div>
+                <div>
+                <Container style={{paddingTop: '50px'}}>
+      <Row>
+       
+        <Col><p className='bottomheaders'>CONTACT</p>
+    <p><a className='bottomlinks' href='/contact'>hello@nats.se</a></p>
+    <p><a className='bottomlinks' href='/contact'>+46 123 45 67 89</a></p>
+    
+    </Col>
+        <Col >
+        <p className='bottomheaders'>ADDRESS</p>
+        <p>Sveagatan 28, 123 45 Vara</p>
+        <p><a className='bottomlinks' href="https://www.google.com/maps/place/E-Tr%C3%A4dg%C3%A5rd/@58.2519024,13.0068573,17z/data=!3m1!4b1!4m6!3m5!1s0x465acfdbd407861f:0x5d5c1711b909038c!8m2!3d58.2519024!4d13.009046!16s%2Fg%2F1hc3_9fpl">Hitta Hit</a></p>
+      
+        </Col>
+        <Col >
+        <p className='bottomheaders'>SOCIAL</p>
+        <p>
+            <a style={{paddingRight: '10px'}} href="https://main.dkibz9e78ls53.amplifyapp.com/" i className="bi bi-instagram bottomlinks"> </a>
+         <a href="https://github.com/nataliemajadixon" i className="bi bi-facebook bottomlinks"> </a>
+         <a href="https://www.linkedin.com/in/nataliedixon369/" i className="bi bi-linkedin bottomlinks"> </a>
+         </p>
+        
+       
+        </Col>
+        
+      </Row>
+      
+    </Container>
+
+    
+    
+                </div>
+                
+                
+                </div>
+        </section>
+   
 
 
 
