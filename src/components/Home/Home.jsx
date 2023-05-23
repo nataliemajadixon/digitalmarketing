@@ -68,15 +68,6 @@ When you need to explain a product, service or complex flows in moving form.
     </div>
 </section>
 
-<section>
-    <div className="work">
-        <div className="homeheaders">HOW WE WORK</div>
-        <div className="homebody">We work hand in hand and in an integrated manner with our clients.
-             Working together puts us into the business giving us the ability to
-              brainstorm strong creative ideas,
-             knocks the code and measures the effect. All in one go.</div>
-    </div>
-</section>
 
 
 
