@@ -108,7 +108,7 @@
   .motivation{
     height: 50vh;
     text-align: center;
-    background-color: rgb(246, 212, 162);
+    background-color: #7dc2fa94 ;
     color: black;
     font-family: 'Roboto', sans-serif; 
     align-items: center;
@@ -127,7 +127,7 @@
   .work{
     height: 50vh;
     text-align: center;
-    background-color: rgb(212, 88, 88);
+    background-color: #d27cbaf1;
     color: white;
     font-family: 'Roboto', sans-serif; 
     align-items: center;
@@ -265,4 +265,5 @@ a:link {
 
 .bottomlinks:hover{
     text-decoration: underline;
+    color: pink;
 }
