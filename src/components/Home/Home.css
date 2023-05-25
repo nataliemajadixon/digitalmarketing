@@ -6,7 +6,7 @@
 /* font-family: 'Fira Sans Condensed', sans-serif; */
 
 .topsection{
-    position: relative;
+    position: flex;
     text-align: center;
     color: white;
  
@@ -31,16 +31,18 @@
     font-size: 30px;
 }
 
-
+.iconhome{
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
 
 .servicecon{
      font-family: 'Roboto', sans-serif; 
     height: 50vh;
-    display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
+    display: flex;
+    flex-wrap:wrap;
     /* display: flex; */
-    background-color: DodgerBlue;
+  padding-left: 40px;
     
 }
 
@@ -49,6 +51,7 @@
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    width: 450px;
   
        
   }
@@ -63,42 +66,83 @@
     font-size: 20px;
   }
 
-  .sbottom{
+  /* .sbottom{
     text-align: center;
     font-family: 'Roboto', sans-serif; 
     font-size: 22px;
     font-weight: 500;
-  }
+    
+  } */
 
-  
+  /* .homeinfo{
+    display: flex;
+    
+  } */
+  /* .servicehome{
+    display: flex;
+  } */
   
   .nats{
+   
     height: 50vh;
     background-color: rgb(227, 225, 222);
-    padding-top: 200px;
+    /* padding-top: 200px; */
     text-align: center;
     color: black;
     font-family: 'Roboto', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    
+  }
+  .natsbox{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
   }
 
   .motivation{
     height: 50vh;
     text-align: center;
-    padding-top: 200px;
     background-color: rgb(246, 212, 162);
     color: black;
     font-family: 'Roboto', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
   }
 
+  .motivationbox{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .work{
     height: 50vh;
     text-align: center;
-    padding-top: 200px;
     background-color: rgb(212, 88, 88);
     color: white;
     font-family: 'Roboto', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
 
+  }
+
+  .workbox{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .homeheaders{
@@ -117,44 +161,96 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
+    justify-content: center;
+    align-items: center;
 }
 
 .flexhome > div {
-  
+  flex: 50%;
     padding: 10px;
-    background-color: chartreuse;
+    
+ 
 }
 
 .flexboxlayout1{
-    position: relative;
+    position: flex;
+    flex-wrap: wrap;
     text-align: center;
-    background-image: url('../../assets/serviceh.jpg');
-    width: 500px;
+    /* background-image: url('../../assets/phonehome.jpg'); */
+    background: linear-gradient(rgba(149, 145, 145, 0.495), rgba(255, 255, 255, 0.133)), url('../../assets/phonehome.jpg');
+    background-repeat: no-repeat;
+    width: 600px;
     height: 400px;
-    background-size: contain ;
-    font-family: 'Fira Sans Condensed', sans-serif; 
+    background-size: cover ;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600;
     color: white;
+    text-decoration: none;
+  
+    
+    
 }
 .flexboxlayout2{
-    position: relative;
+    position: flex;
+    flex-wrap: wrap;
     text-align: center;
-    background-image: url('../../assets/abouthome.jpg');
+    
+    background: linear-gradient(rgba(149, 145, 145, 0.495), rgba(255, 255, 255, 0.133)), url('../../assets/abouthome.jpg');
     width: 500px;
     height: 400px;
     background-size: cover ;
-    font-family: 'Fira Sans Condensed', sans-serif; 
+    
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600;
     color: white;
     background-repeat: no-repeat;
+    
 }
 
+.flexboxlayout1text{
+  padding-top: 50px;
+  font-size: 35px;
+  color: white;
+  text-decoration: none;
+
+}
+
+.flexboxlayout1text:hover {
+    color: rgb(230, 226, 135);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.flexboxlayout2text{
+    padding-top: 50px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+  }
+  .flexboxlayout2text:hover {
+    color: rgb(230, 226, 135);
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 
-
-
+.readmore{
+    font-size: 20px;
+    font-weight: 500;
+}
 
 .homeflexboxes {
     width: 500px;
 }
+
+
+a:link {
+  
+    background-color: transparent;
+    text-decoration: none;
+   
+  }
 
 .footer{
     background-color: black;
@@ -165,4 +261,8 @@
 .bottomlinks{
     color: white;
     text-decoration: none;
+}
+
+.bottomlinks:hover{
+    text-decoration: underline;
 }
