@@ -8,6 +8,7 @@
      display: flex;
      padding-top: 50px;
      padding-bottom: 20px;
+    
 }
 
 .careercon{
@@ -20,6 +21,7 @@
 
 .careerheader{
     font-size: 80px;
+    position: absolute;
     /* padding-bottom: 30px; */
     font-weight: 600;
     color: transparent;
@@ -75,4 +77,103 @@
 
 .careertext{
     font-size: 25px;
+    position: absolute;
+    padding-top: 350px;
+    color: white;
+    width: 700px;
+}
+
+.careerentireflex{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+     justify-content: center;
+     vertical-align: middle;
+     display: flex;
+     padding-top: 50px;
+     padding-bottom: 20px;
+}
+
+.careerentirecon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    text-align: left;
+}
+
+.careerentireheader{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.careerentiretext{
+    font-size: 20px;
+    padding-bottom: 70px;
+    text-align: left;
+}
+
+.careerworkflex{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+     justify-content: center;
+     vertical-align: middle;
+     display: flex;
+     padding-top: 50px;
+     padding-bottom: 20px;
+}
+
+.careerworkcon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    text-align: left;
+}
+.careerworkheader{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.careerworktext{
+    font-size: 20px;
+    padding-bottom: 70px;
+    text-align: left;
+}
+
+.careerusflex{
+    height: 50vh;
+    text-align: center;
+    /* background-color: #7dc2fa94 ; */
+    color: black;
+    font-family: 'Roboto', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+}
+.careeruscon{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.careerusheader{
+    font-family: 'Roboto', sans-serif; 
+    padding-bottom: 20px;
+}
+
+.careerustext{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.careerapp{
+    padding-top: 20px;
 }
