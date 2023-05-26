@@ -80,7 +80,7 @@
 
 .flexabout{
     display: flex;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     flex-wrap: wrap;
    padding-left: 120px;
 }
@@ -95,9 +95,115 @@
 }
 
 
-.aboutfdpundertext{
-    font-size: 25px;
-    padding-bottom: 70px;
-    padding-top: 60px;
-    
+.aboutunderflex{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+     justify-content: center;
+     vertical-align: middle;
+     display: flex;
+     padding-top: 50px;
+     padding-bottom: 20px;
+     background-color: pink;
 }
+.aboutundercon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+
+.aboutfdpundertext{
+    padding-top: 40px;
+    font-size: 20px;
+    padding-bottom: 70px;
+    text-align: left;
+}
+.aboutfdpundertextq{
+    padding-top: 25px;
+   
+}
+
+.aboutclientsflex{
+
+    height: 35vh;
+    background-color: black;
+    /* padding-top: 200px; */
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+}
+
+.aboutclientscon{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.aboutclients{
+    font-weight: 900 ;
+    font-size: 35px;
+}
+
+
+.about1flex{
+    height: 55vh;
+    text-align: center;
+    background-color: #55a5e694 ;
+    color: black;
+    font-family: 'Roboto', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+}
+
+.about1con{
+    width: 806px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about0header{
+    font-family: 'Roboto', sans-serif; 
+    padding-bottom: 20px;
+}
+
+.about0text{
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+}
+
+.about2flex{
+    height: 55vh;
+    text-align: center;
+    background-color: white ;
+    color: black;
+    font-family: 'Roboto', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+}
+
+.about2con{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* #7dc2fa94  */

@@ -5,14 +5,21 @@ import './Career.css'
 const Career = () => {
     return(
         <>
-        <div>Work at Nats</div>
+        <div className="careerflex">
+        <div className="careercon">
+        <div className="careerheader">Work at Nats</div>
 
-        <div>Do you want to be involved in building the experiences of the future on the
+        <div className="careertext">Do you want to be involved in building the experiences of the future on the
              internet? 
             Do you want to tell stories and evoke emotions with design, film and games? 
             Do you want to use new technology to help companies and organizations show 
             who they are and what they do? 
             Do you want to work with us?</div>
+
+            </div>
+            </div>
+
+
         <h1>have a pop up alert of snackmenu that says no jobs currently need hiring</h1>
         <div>Image background with text on top, Career, PRACTICE AT NATS, more about practice</div>
         
