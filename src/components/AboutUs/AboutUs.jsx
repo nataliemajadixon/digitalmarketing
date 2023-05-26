@@ -6,7 +6,7 @@ const About = () => {
     return(
 <>
 <div className="abouttop">
-<img src={require('../../assets/footballfield.jpeg')} alt='footballfield' style={{ width: "100vw", height:'100vh'}} />
+<img src={require('../../assets/footballfield.jpeg')} alt='footballfield' style={{ width: "100vw", height:'100vh', filter: 'brightness(60%)'}} />
 <div className="abouttext">
 
 <div className="aboutbig">About Nats</div>
@@ -14,11 +14,16 @@ const About = () => {
     The old annual plans for advertising, marketing and web 
     developments are outdated. Now it is important to constantly
      test new approaches alongside your strategy and dare to rethink 
-    and put resources where you get the best effect.</div>
+    and put resources where you get the best effect.
+    </div>
+  
 </div>
 </div>
 
-<div className="aboutfdp">
+
+
+<div className="aboutfdpflex">
+  <div className="aboutfdpcon">
 <div className="aboutfdptop"> Flexible digital partner</div>
 <div className="aboutfdptext">With Nats, you get a present and flexible digital partner who masters design,
     development and Film. We make all disciplines work together in a strong whole.
@@ -27,7 +32,11 @@ const About = () => {
     digital plan together. We want to get to know your brands challenges and goals. Only then can we
     really make a difference.
 </div>
+</div>
+</div>
 
+
+<section>
 <div className="flexabout">
     <div>
 
@@ -42,13 +51,20 @@ const About = () => {
   </video>
     </div>
 </div>
+</section>
 
+
+<div className>
+<div>
 <div className="aboutfdpundertext">What we create must be stylish, user-friendly and strengthen the brand, but it must also drive the business. 
     That's why we always look at the big picture and question traditional business models,
      revenue streams, processes, organizations and ways of working. 
      {'\n'} 
 The main question is always: How can we create greater benefit? </div>
 </div>
+</div>
+
+
 
 
 

@@ -18,6 +18,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.iconarrowabout{
+    font-size: 40px;
+    padding-top: 90px;
+   
+}
 
 .aboutbig{
     font-weight: 700;
@@ -28,21 +33,48 @@
 .aboutsmall{
     font-weight: 500;
     font-size: 25px;
+   
 }
 
-.aboutfdp{
-    padding-top: 120px;
-    
-    text-align: center;
+.aboutfdpflex{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+     justify-content: center;
+     vertical-align: middle;
+     display: flex;
+     padding-top: 50px;
+     padding-bottom: 20px;
+     /* background-color: rgba(80, 80, 244, 0.409); */
+
 }
+.aboutfdpcon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+/* .aboutfdp{
+    padding-top: 120px; */
+    /* width:500px; */
+   
+    /* text-align: center;
+    align-items: center;
+} */
 
 .aboutfdptop{
     font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   
+    
 }
 
 .aboutfdptext{
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 70px;
+    text-align: left;
     
 }
 

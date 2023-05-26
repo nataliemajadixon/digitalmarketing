@@ -18,7 +18,7 @@ const Services = () => {
         
                 <div className="videocon">
                   <video loop autoPlay muted className='servicevideo'>
-                            <source src={require('../../assets/marketingclip.mp4')}  alt='team' type='video/mp4'  /> 
+                            <source src={require('../../assets/servicesvideo.mp4')}  alt='team' type='video/mp4'  /> 
   
                     </video>
                 </div>
