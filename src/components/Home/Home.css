@@ -5,16 +5,39 @@
 
 /* font-family: 'Fira Sans Condensed', sans-serif; */
 
-.topsection{
+
+ .hometopflex1{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+     justify-content: center;
+     vertical-align: middle;
+     display: flex;
+     padding-top: 50px;
+     padding-bottom: 20px;
+   
+} 
+
+.hometopcont{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    
+   
+   
+} 
+
+/* .topsection{
     position: flex;
     text-align: center;
     color: white;
  
-}
+} */
 
 .toptext{
     font-family: 'Fira Sans Condensed', sans-serif; 
-    
+    color: white;
     position: absolute;
     top: 60%;
     left: 50%;
@@ -29,6 +52,7 @@
 .smalltop{
     font-weight: 500;
     font-size: 30px;
+    padding-left: 150px;
 }
 
 .iconhome{

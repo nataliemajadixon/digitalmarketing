@@ -6,6 +6,8 @@ const Home = () => {
     return (
 
     <>
+    <div className="hometopflex1"></div>
+    <div className="hometopcont"></div>
     <section className="topsection">
 <img src={require('../../assets/vrhome.jpeg')} alt='vrheadset' style={{ filter: 'brightness(70%)', width: '100vw', height: '100vh', objectFit: 'cover' }}/>
         <div className='toptext'>
@@ -18,6 +20,9 @@ const Home = () => {
         </div>
         </div>
     </section>
+
+
+    
     <section className="servicehome">
         <div className="servicecon">
 <div className='scontainers'>
