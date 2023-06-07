@@ -1,0 +1,111 @@
+.contactheader{
+    font-size: 80px;
+    font-weight: 700;
+    
+    text-align:center;
+    padding-top: 100px;
+}
+
+.contacttop{
+   
+   
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+  
+}
+
+.contacttoptext{
+    justify-content: center; 
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+/* abosolute could be problem */
+
+
+.projectflex{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+     justify-content: center;
+     vertical-align: middle;
+     display: flex;
+     padding-top: 160px;
+     padding-bottom: 40px;
+     background-color: rgba(80, 80, 244, 0.409);
+}
+.projectcon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+.projectheader{
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+.projecttheader2{
+    font-size: 22px;
+}
+.projecttext{
+    font-size: 20px;
+}
+
+
+.car{
+    height: 30vh;
+    text-align: center;
+    background-color: #b8acb4f1;
+    color: black;
+    font-family: 'Roboto', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    
+}
+
+.carflex{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cartext{
+    font-size: 20px;
+}
+
+.imap{
+    padding-top: 50px;
+}
+
+.mapheader{
+    
+    font-family: 'Roboto', sans-serif; 
+    padding-bottom: 20px;
+    
+}
+
+.maptext{
+    padding-top: 160px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.vastralink{
+    text-decoration:underline;
+    color: black;
+}
+.mappara{
+    font-size: 20px;
+}

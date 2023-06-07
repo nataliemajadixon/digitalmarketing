@@ -7,7 +7,7 @@ import './Navbar.css'
 
 const Navbars = () => {
     return (
-        <Navbar expand="lg" sticky="top" style={{backgroundColor: 'rgb(255, 252, 252)'}} >
+        <Navbar className='topnavbar' expand="lg" sticky="top" style={{backgroundColor: 'rgb(255, 252, 252)'}} >
         <Container fluid>
           <Navbar.Brand href="/"> <img src={require('../../assets/natslogo.png')} alt='businesslogo' style={{height: '60px', paddingLeft: '80px'}} /></Navbar.Brand>
          
